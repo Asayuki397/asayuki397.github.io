@@ -34,7 +34,8 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Asayuki397",
-  linkedin: "https://www.linkedin.com/in/%EB%AF%BC%ED%98%81-%EC%9E%A5-772b65356/",
+  linkedin:
+    "https://www.linkedin.com/in/%EB%AF%BC%ED%98%81-%EC%9E%A5-772b65356/",
   gmail: "tech.minhyuk@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -83,7 +84,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -97,8 +98,8 @@ const educationInfo = {
       schoolName: "KAIST - Korea Advanced Institute of Science and Technology",
       logo: require("./assets/images/kaistLOGO.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "February 2024 - (Undergraduate)",
-    },
+      duration: "February 2024 - (Undergraduate)"
+    }
   ]
 };
 
@@ -173,7 +174,8 @@ const bigProjects = {
     {
       image: require("./assets/images/sakutanbot logo.png"),
       projectName: "SakutanBot",
-      projectDesc: "A interactive discord bot that supports live stock trading, simple games, economy system, conversations with character-inherent GPT.",
+      projectDesc:
+        "A interactive discord bot that supports live stock trading, simple games, economy system, conversations with character-inherent GPT.",
       footerLink: [
         {
           name: "github repo",
@@ -185,7 +187,8 @@ const bigProjects = {
     {
       image: require("./assets/images/FBI_image.png"),
       projectName: "FBI-Flower Battle Impact",
-      projectDesc: "Smash-like game that requires players to defend their objectives-flowers! which can be your weapon. Powered by Unity.",
+      projectDesc:
+        "Smash-like game that requires players to defend their objectives-flowers! which can be your weapon. Powered by Unity.",
       footerLink: [
         {
           name: "github repo",
@@ -202,28 +205,23 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Some Cool Stuff that I have done !",
+  subtitle: "Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
       title: "Curriculum Excellence Award",
-      subtitle:
-        "Simseok high school Computer and Information",
+      subtitle: "Simseok high school Computer and Information",
       image: require("./assets/images/hslogo.jpg"),
       imageAlt: "Google Code-In Logo",
-      footerLink: [
-      ]
+      footerLink: []
     },
     {
       title: "Discord Active Developer",
-      subtitle:
-        "Recieved discord active developer badge in 2022",
+      subtitle: "Recieved discord active developer badge in 2022",
       image: require("./assets/images/active-developer-badge.png"),
       imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-      ]
-    },
+      footerLink: []
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
