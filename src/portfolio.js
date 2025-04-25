@@ -25,8 +25,8 @@ const greeting = {
   subTitle: emoji(
     "A Growing Junior Software Developer 🚀 having an experience of building games / applications with Unity / GameMaker and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://docs.google.com/document/d/1S2cwcxMEEFjqNX7kzwXAICQF8S_YrHrkCdFkvvzjHGM/edit?usp=sharing", // Set to empty to hide the button
+  //resumeLink: "https://docs.google.com/document/d/1S2cwcxMEEFjqNX7kzwXAICQF8S_YrHrkCdFkvvzjHGM/edit?usp=sharing",
+     // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
