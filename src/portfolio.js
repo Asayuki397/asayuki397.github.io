@@ -49,7 +49,7 @@ const skillsSection = {
   subTitle:
     "Passionate junior full stack developer who wants to explore every tech stack",
   skills: [
-    emoji("⚡ Develop"),
+    emoji("⚡ Develop fun games using Unity, GameMaker"),
     emoji(
       "🔥 Learning algoryithms, which can help me solve challenging problems"
     ),
